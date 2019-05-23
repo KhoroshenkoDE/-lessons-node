@@ -15,9 +15,9 @@ fs.readFile('new_file.txt', 'utf-8', function(err, data) {
 
 fs.writeFile('new.txt', mess, function(err, data) {});
 
-fs.appendFileSync("text.txt", "Привет ми ми ми!");
+fs.appendFileSync("text.txt", "\nПривет ми ми ми!");
  
-fs.appendFile("text.txt", "Привет МИД!", 'utf-8', function(error){
+fs.appendFile("text.txt", "\nПривет МИP!", 'utf-8', function(error){
 
     var data = fs.readFileSync("text.txt", "utf8");
     console.log(data); 
