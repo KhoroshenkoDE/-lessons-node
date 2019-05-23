@@ -1,3 +1,4 @@
+
 var fs = require('fs');
 
 var file = fs.readFileSync('text.txt', 'utf-8');
