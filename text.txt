@@ -1,5 +1,6 @@
 ﻿Its me)))
 
 
-Привет ми ми ми!
-Привет МИP!
+
+for text.txt
+for text.txt
